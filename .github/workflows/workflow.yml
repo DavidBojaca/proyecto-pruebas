@@ -33,14 +33,14 @@ jobs:
         run: echo Hello, world!
         
       - name: listar archivos
-        run: 
+        run: |
           ls
           pdw
       - name: install virtualenv and execute pytest
-        run: 
+        run: |
           pip install virtualenv
           virtualenv env
-          source env/bin actuvate
+          source env/bin/activate
       
 
 
